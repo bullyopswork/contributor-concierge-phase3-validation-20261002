@@ -1,4 +1,4 @@
 'use strict';
-// Synthetic, self-contained v2.4.0 fixture. No repository or network access.
-function formatName(name) { return name.trim(); }
+// Synthetic, self-contained v3.0.0 fixture.
+function formatName(name = 'anonymous') { return name.trim(); }
 console.log(formatName());
